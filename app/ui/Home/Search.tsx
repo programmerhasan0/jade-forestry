@@ -5,7 +5,7 @@ import { BsHandbagFill } from "react-icons/bs";
 const Search: React.FC = () => {
     return (
         <div className="sidebar-wrapper  bg-[#F0ECE3]">
-            <div className="md:container mx-auto md:min-h-[112px] flex items-center justify-around">
+            <div className="md:container mx-auto md:min-h-[112px] min-h-[50px] flex items-center justify-around">
                 <div></div>
                 <div className="bg-white hidden p-2 md:flex flex-row items-center rounded-3xl">
                     <input

@@ -14,6 +14,12 @@ export default {
                 "dark-green": "#133216",
                 "green-primary": "#77892B",
             },
+            backgroundImage: {
+                "hero-bg": "url('/hero-bg.png')",
+            },
+            fontFamily: {
+                "tiro-bangla": ['"Tiro Bangla"', "serif"],
+            },
         },
     },
     plugins: [],
