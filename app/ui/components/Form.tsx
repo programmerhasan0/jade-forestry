@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Form: React.FC = () => {
     return (
         <form onSubmit={e => e.preventDefault()} className="mt-8">
-            <div className="input-col-wrapper flex">
+            <div className="input-col-wrapper md:flex">
                 <div className="firstName">
                     <label htmlFor="firstName">First Name</label>
                     <div className="input">
@@ -12,7 +12,7 @@ const Form: React.FC = () => {
                             type="text"
                             name="firstName"
                             id=""
-                            className="outline-none border rounded-md py-2 px-3 mr-2"
+                            className="outline-none border rounded-md py-2 px-3 mr-2 w-full md:w-auto"
                         />
                     </div>
                 </div>
@@ -23,12 +23,12 @@ const Form: React.FC = () => {
                             type="text"
                             name="lastName"
                             id=""
-                            className="outline-none border rounded-md py-2 px-3 mr-2"
+                            className="outline-none border rounded-md py-2 px-3 mr-2 w-full md:w-auto"
                         />
                     </div>
                 </div>
             </div>
-            <div className="input-col-wrapper flex">
+            <div className="input-col-wrapper md:flex">
                 <div className="email">
                     <label htmlFor="email">Email</label>
                     <div className="input">
@@ -36,7 +36,7 @@ const Form: React.FC = () => {
                             type="email"
                             name="email"
                             id=""
-                            className="outline-none border rounded-md py-2 px-3 mr-2"
+                            className="outline-none border rounded-md py-2 px-3 mr-2 w-full md:w-auto"
                         />
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Form: React.FC = () => {
                             type="text"
                             name="phone"
                             id=""
-                            className="outline-none border rounded-md py-2 px-3 mr-2"
+                            className="outline-none border rounded-md py-2 px-3 mr-2 w-full md:w-auto"
                         />
                     </div>
                 </div>
